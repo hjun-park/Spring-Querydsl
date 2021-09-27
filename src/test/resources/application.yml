@@ -1,9 +1,9 @@
 # >> 04.
 
 spring:
-  # >> 51. 개발환경 분리 ( 메인은 local 예시 )
+  # >> 51. 개발환경 분리 ( 테스트는 test )
   profiles:
-    active: local
+    active: test
   datasource:
     url: jdbc:h2:tcp://localhost/~/querydsl
     username: sa
